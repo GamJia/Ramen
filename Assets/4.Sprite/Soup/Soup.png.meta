@@ -1,0 +1,1188 @@
+fileFormatVersion: 2
+guid: b1ab63c7c82cc8245835e84294b3a046
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3733805612042556432
+    second: Soup_0
+  - first:
+      213: -1150595857493663628
+    second: Soup_1
+  - first:
+      213: 5072318866695339434
+    second: Soup_2
+  - first:
+      213: -8510863159214952419
+    second: Soup_3
+  - first:
+      213: -2494861816748664445
+    second: Soup_4
+  - first:
+      213: 2434560101094767228
+    second: Soup_5
+  - first:
+      213: -8881865773577641437
+    second: Soup_6
+  - first:
+      213: -5943741515155653090
+    second: Soup_7
+  - first:
+      213: 3586872281758451283
+    second: Soup_8
+  - first:
+      213: -4323331371832592505
+    second: Soup_9
+  - first:
+      213: 6831096215994233273
+    second: Soup_10
+  - first:
+      213: 8749647624530638744
+    second: Soup_11
+  - first:
+      213: -2261342962734685582
+    second: Soup_12
+  - first:
+      213: -4731453379003648201
+    second: Soup_13
+  - first:
+      213: -4924462301110242861
+    second: Soup_14
+  - first:
+      213: 1083498082659440825
+    second: Soup_15
+  - first:
+      213: -4550393246759134867
+    second: Soup_16
+  - first:
+      213: -844999718804620751
+    second: Soup_17
+  - first:
+      213: 4535322584221814457
+    second: Soup_18
+  - first:
+      213: 5351359533713318947
+    second: Soup_19
+  - first:
+      213: -3622940444902175347
+    second: Soup_20
+  - first:
+      213: 6795549440076629136
+    second: Soup_21
+  - first:
+      213: -7439161388023985590
+    second: Soup_22
+  - first:
+      213: -6479170493708060328
+    second: Soup_23
+  - first:
+      213: 8308631393051156619
+    second: Soup_24
+  - first:
+      213: 5266097879398309273
+    second: Soup_25
+  - first:
+      213: 2689666070117654105
+    second: Soup_26
+  - first:
+      213: -3731444977877645932
+    second: Soup_27
+  - first:
+      213: 1552099883870431972
+    second: Soup_28
+  - first:
+      213: 9154216477031886038
+    second: Soup_29
+  - first:
+      213: 573402970706669641
+    second: Soup_30
+  - first:
+      213: -4683660019963350473
+    second: Soup_31
+  - first:
+      213: -2403498030412117544
+    second: Soup_32
+  - first:
+      213: 4434286892409322907
+    second: Soup_33
+  - first:
+      213: -5857479609180745334
+    second: Soup_34
+  - first:
+      213: -4227164386285991255
+    second: Soup_35
+  - first:
+      213: -8296877852257116127
+    second: Soup_36
+  - first:
+      213: 7323274347605084613
+    second: Soup_37
+  - first:
+      213: -5317016278550445002
+    second: Soup_38
+  - first:
+      213: 1402485074874694737
+    second: Soup_39
+  - first:
+      213: -4031201507861469037
+    second: Soup_40
+  - first:
+      213: 1782648710256264021
+    second: Soup_41
+  - first:
+      213: 6278808771608786784
+    second: Soup_42
+  - first:
+      213: 3391507261694174747
+    second: Soup_43
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Soup_0
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1583
+        width: 296
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 014182eeb6421d330800000000000000
+      internalID: 3733805612042556432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soup_1
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 1583
+        width: 296
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 470ed0ae9234800f0800000000000000
+      internalID: -1150595857493663628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soup_2
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 1583
+        width: 296
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aad33ec822f746640800000000000000
+      internalID: 5072318866695339434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soup_3
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 1583
+        width: 296
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d10b8079c0753e980800000000000000
+      internalID: -8510863159214952419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soup_4
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 1583
+        width: 296
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38992016568706dd0800000000000000
+      internalID: -2494861816748664445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soup_5
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 1583
+        width: 296
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7ab71a538b49c120800000000000000
+      internalID: 2434560101094767228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soup_6
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1391
+        width: 296
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 322643713264db480800000000000000
+      internalID: -8881865773577641437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soup_7
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 1391
+        width: 296
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1eb7605596938da0800000000000000
+      internalID: -5943741515155653090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soup_8
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 1391
+        width: 296
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35648e0165127c130800000000000000
+      internalID: 3586872281758451283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soup_9
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 1391
+        width: 296
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 787bd97f5017004c0800000000000000
+      internalID: -4323331371832592505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soup_10
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 1391
+        width: 296
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b1f9d4d0ddecce50800000000000000
+      internalID: 6831096215994233273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soup_11
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1157
+        width: 296
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8973df9282efc6970800000000000000
+      internalID: 8749647624530638744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soup_12
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 1157
+        width: 296
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 272aed67e881e90e0800000000000000
+      internalID: -2261342962734685582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soup_13
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 1157
+        width: 296
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7377a295830865eb0800000000000000
+      internalID: -4731453379003648201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soup_14
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 1157
+        width: 296
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d17588c0abc8abb0800000000000000
+      internalID: -4924462301110242861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soup_15
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 1157
+        width: 296
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b89bbbf3cb590f00800000000000000
+      internalID: 1083498082659440825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soup_16
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 1157
+        width: 296
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d69d59a7371c9d0c0800000000000000
+      internalID: -4550393246759134867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soup_17
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 965
+        width: 296
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13a78559b35f544f0800000000000000
+      internalID: -844999718804620751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soup_18
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 965
+        width: 296
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9be09567cd3b0fe30800000000000000
+      internalID: 4535322584221814457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soup_19
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 965
+        width: 296
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 324e168a429d34a40800000000000000
+      internalID: 5351359533713318947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soup_20
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 965
+        width: 296
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8dc53b4cdab8bdc0800000000000000
+      internalID: -3622940444902175347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soup_21
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 965
+        width: 296
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0944f5d1634ae4e50800000000000000
+      internalID: 6795549440076629136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soup_22
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 732
+        width: 296
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4a4708c12ac2c890800000000000000
+      internalID: -7439161388023985590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soup_23
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 732
+        width: 296
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 859b65b93cc5516a0800000000000000
+      internalID: -6479170493708060328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soup_24
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 732
+        width: 296
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8029702b303e4370800000000000000
+      internalID: 8308631393051156619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soup_25
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 732
+        width: 296
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d59fdce10f41940800000000000000
+      internalID: 5266097879398309273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soup_26
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 732
+        width: 296
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95e98c15a0d935520800000000000000
+      internalID: 2689666070117654105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soup_27
+      rect:
+        serializedVersion: 2
+        x: 1918
+        y: 732
+        width: 296
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49500ba009e373cc0800000000000000
+      internalID: -3731444977877645932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soup_28
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 540
+        width: 296
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eaa50afe9a2a8510800000000000000
+      internalID: 1552099883870431972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soup_29
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 540
+        width: 296
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dc638e726f4a0f70800000000000000
+      internalID: 9154216477031886038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soup_30
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 540
+        width: 296
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 940ff1eb6f225f700800000000000000
+      internalID: 573402970706669641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soup_31
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 540
+        width: 296
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 732b265e60c400fb0800000000000000
+      internalID: -4683660019963350473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soup_32
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 540
+        width: 296
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d94fee864f05aed0800000000000000
+      internalID: -2403498030412117544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soup_33
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 305
+        width: 296
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9d7a3e4f60c98d30800000000000000
+      internalID: 4434286892409322907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soup_34
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 305
+        width: 296
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8110b7645d06bea0800000000000000
+      internalID: -5857479609180745334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soup_35
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 305
+        width: 296
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aacd3c13681655c0800000000000000
+      internalID: -4227164386285991255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soup_36
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 305
+        width: 296
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 120a8675d819bdc80800000000000000
+      internalID: -8296877852257116127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soup_37
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 305
+        width: 296
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c94bb1083f71a560800000000000000
+      internalID: 7323274347605084613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soup_38
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 305
+        width: 296
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 634080c8dd92636b0800000000000000
+      internalID: -5317016278550445002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soup_39
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 113
+        width: 296
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15c71b2beb0a67310800000000000000
+      internalID: 1402485074874694737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soup_40
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 113
+        width: 296
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 398e5e9369b4e08c0800000000000000
+      internalID: -4031201507861469037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soup_41
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 113
+        width: 296
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 553022e9e8d3db810800000000000000
+      internalID: 1782648710256264021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soup_42
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 113
+        width: 296
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 067395caf4fc22750800000000000000
+      internalID: 6278808771608786784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soup_43
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 113
+        width: 296
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b166072b2ed011f20800000000000000
+      internalID: 3391507261694174747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
