@@ -11,6 +11,7 @@ public class SoupSelect : MonoBehaviour
     [SerializeField] GameObject noodle;
     SoupDragDrop soupdragdrop;
     [SerializeField] private Dialogue dialogue;
+    [SerializeField] private GameObject soupPrevent;
     [SerializeField] private GameObject toppingPrevent;
     [SerializeField] private GameObject dragPrevent;
     [SerializeField] private AudioSource waterpouring;
@@ -136,6 +137,7 @@ public class SoupSelect : MonoBehaviour
 
             if (dialogue.Active() && !dialogue.inActive)
             {
+                soupPrevent.SetActive(true);
                 dialogue.SoupSuccess();
                 toppingPrevent.SetActive(false);
             }

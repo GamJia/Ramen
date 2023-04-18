@@ -18,7 +18,9 @@ public class SoupDragDrop : MonoBehaviour, IBeginDragHandler, IEndDragHandler
     [SerializeField] private GameObject[] Soups;
     [SerializeField] private GameObject[] Toppings;
     [SerializeField] private GameObject boilPrevent;
+    [SerializeField] private GameObject soupPrevent;
     [SerializeField] private TutorialGuest tutorial;
+    [SerializeField] private GuestTimer guestTimer;
 
     [SerializeField] private FirstGuest firstguest;
 
@@ -66,6 +68,7 @@ public class SoupDragDrop : MonoBehaviour, IBeginDragHandler, IEndDragHandler
             {
                 Debug.Log("¼Õ´Ô ¸¸Á·");
                 tutorial.DialogueFalse();
+                soupPrevent.SetActive(false) ;
                 Invoke(nameof(WaitforNoodle), 0.1f);
                 boilPrevent.SetActive(false);
                 dialogue.Final();
@@ -88,7 +91,9 @@ public class SoupDragDrop : MonoBehaviour, IBeginDragHandler, IEndDragHandler
         {
             if (transform.position.x > -8.4f && transform.position.x < -5.9f && transform.position.y < 3.4f && transform.position.y > 0.6f)
             {
+                guestTimer.StopCount();
                 firstguest.CheckAnswer();
+                guestTimer.bar.transform.localScale = new Vector3(1, 1, 1);
                 Invoke(nameof(WaitforNoodle), 0.1f);
                 boilPrevent.SetActive(false);
             }

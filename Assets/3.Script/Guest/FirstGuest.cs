@@ -14,6 +14,7 @@ public class FirstGuest : MonoBehaviour
     public int[] answerArr = new int[6];
     public List<int> answerList = new List<int>();
     [SerializeField] private Animator guestAnimation;
+    [SerializeField] private GuestTimer guesttimer;
 
     public static Vector2 DefaultPos;
     
@@ -27,6 +28,7 @@ public class FirstGuest : MonoBehaviour
 
     public void Movement()
     {
+        guesttimer.StartCount();
         character.SetActive(true);
         LeanTween.moveLocalX(guest, -621.741f, 3);
         Invoke(nameof(waitforsec),3.4f);
