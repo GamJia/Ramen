@@ -44,7 +44,7 @@ public class TutorialGuest : MonoBehaviour
 
     private void FirstMove()
     {
-        firstguest.Movement();
+        firstguest.SelectCharactor();
     }
 
     private void TutorialInactive()

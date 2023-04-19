@@ -9,27 +9,41 @@ public class FirstGuest : MonoBehaviour
     [SerializeField] private GameManager gamemanager;
     [SerializeField] private SpriteRenderer spriterenderer;
     [SerializeField] public GameObject guest;
-    [SerializeField] public GameObject character;
+    [SerializeField] public GameObject[] character=new GameObject[3];
     [SerializeField] public GameObject menu;
     public int[] answerArr = new int[6];
     public List<int> answerList = new List<int>();
-    [SerializeField] private Animator guestAnimation;
     [SerializeField] private GuestTimer guesttimer;
+    [SerializeField] private Animator guestAnimator;
+    public int ran;
+
 
     public static Vector2 DefaultPos;
     
 
     private void Start()
-    {
-        spriterenderer.GetComponent<SpriteRenderer>();
-        DefaultPos = guest.transform.position;
+    {   
+        DefaultPos = guest.transform.position;  
+    }
+       
 
+    public void SelectCharactor()
+    {
+        ran = Random.Range(0, 3);
+        Invoke(nameof(SetCharacter), 0.2f);
+    }
+
+    public void SetCharacter()
+    {
+        guestAnimator = character[ran].GetComponent<Animator>();
+        spriterenderer = character[ran].GetComponent<SpriteRenderer>();
+        character[ran].SetActive(true);
+        Invoke(nameof(Movement), 1.4f);
     }
 
     public void Movement()
     {
         guesttimer.StartCount();
-        character.SetActive(true);
         LeanTween.moveLocalX(guest, -621.741f, 3);
         Invoke(nameof(waitforsec),3.4f);
     }
@@ -54,7 +68,7 @@ public class FirstGuest : MonoBehaviour
         if(isEqual)
         {
             Debug.Log("동일함");
-            guestAnimation.SetBool("isRight", true);
+            guestAnimator.SetBool("isRight", true);
             gamemanager.AddCoin(10000);
             StopCoroutine("FadeOut");
             StartCoroutine("FadeOut");
@@ -64,7 +78,7 @@ public class FirstGuest : MonoBehaviour
         if (!isEqual)
         {
             Debug.Log("다름");
-            guestAnimation.SetBool("isWrong", true);
+            guestAnimator.SetBool("isWrong", true);
             gamemanager.AddCoin(-5000);
             gamemanager.Heart(-1);
             StopCoroutine("FadeOut");
@@ -96,13 +110,15 @@ public class FirstGuest : MonoBehaviour
 
     void ResetColor()
     {
-        guestAnimation.SetBool("isRight", false);
-        guestAnimation.SetBool("isWrong", false);
+        guestAnimator.SetBool("isRight", false);
+        guestAnimator.SetBool("isWrong", false);
         Color c = spriterenderer.material.color;
         c.a = 1f;
         spriterenderer.material.color = c;
+        character[ran].SetActive(false);
         menu.SetActive(false);
-        Movement();
+        SelectCharactor();
+
     }
 
     public void Reset()
@@ -114,5 +130,7 @@ public class FirstGuest : MonoBehaviour
         }
 
         gamemanager.MakeMenu();
+        
+       
     }
 }
