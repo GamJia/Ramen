@@ -9,7 +9,7 @@ public class FirstGuest : MonoBehaviour
     [SerializeField] private GameManager gamemanager;
     [SerializeField] private SpriteRenderer spriterenderer;
     [SerializeField] public GameObject guest;
-    [SerializeField] public GameObject[] character=new GameObject[3];
+    [SerializeField] public GameObject[] character=new GameObject[5];
     [SerializeField] public GameObject menu;
     public int[] answerArr = new int[6];
     public List<int> answerList = new List<int>();
@@ -29,7 +29,7 @@ public class FirstGuest : MonoBehaviour
 
     public void SelectCharactor()
     {
-        ran = Random.Range(0, 3);
+        ran = Random.Range(0, 5);
         Invoke(nameof(SetCharacter), 0.2f);
     }
 

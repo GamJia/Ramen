@@ -25,6 +25,8 @@ public class GuestTimer : MonoBehaviour
             bar.GetComponent<Image>().color = new Color32(69, 171, 97, 255);
         }
     }
+
+ 
     public void StartCount()
     {
         LeanTween.scaleY(bar, 0, 40);
