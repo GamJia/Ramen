@@ -7,9 +7,15 @@ using UnityEngine.UI;
 public class GuestTimer : MonoBehaviour
 {
     [SerializeField] public GameObject bar;
+    [SerializeField] private FirstGuest firstguest;
 
     private void Update()
     {
+        if (bar.transform.localScale.y == 0)
+        {
+            firstguest.CheckAnswer();
+        }
+
         if (bar.transform.localScale.y <= 0.3f)
         {
             bar.GetComponent<Image>().color = new Color32(255, 96, 96, 255);
@@ -29,7 +35,8 @@ public class GuestTimer : MonoBehaviour
  
     public void StartCount()
     {
-        LeanTween.scaleY(bar, 0, 40);
+        int ranTime = Random.Range(30, 41);
+        LeanTween.scaleY(bar, 0, ranTime);
     }
 
     public void StopCount()

@@ -103,16 +103,23 @@ public class Temperature : MonoBehaviour
                 if (transform.localScale.y <= 0.3f)
                 {
                     gamemanager.Menu[0] = 1;
+                    gamemanager.Menu2[0] = 1;
+                    gamemanager.Menu3[0] = 1;
+
                 }
 
                 else if (transform.localScale.y > 0.3f && transform.localScale.y < 0.7f)
                 {
                     gamemanager.Menu[0] = 2;
+                    gamemanager.Menu2[0] = 2;
+                    gamemanager.Menu3[0] = 2;
                 }
 
                 else if(transform.localScale.y > 0.7f)
                 {
                     gamemanager.Menu[0] = 3;
+                    gamemanager.Menu2[0] = 3;
+                    gamemanager.Menu3[0] = 3;
                 }
 
                 Invoke(nameof(WaitforSec), 1.0f);

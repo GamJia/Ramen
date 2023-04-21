@@ -63,6 +63,8 @@ public class SoupSelect : MonoBehaviour
             {
                 toppingPrevent.SetActive(false);
                 gamemanager.Menu[1] = 1;
+                gamemanager.Menu2[1] = 1;
+                gamemanager.Menu3[1] = 1;
             }
 
         }
@@ -91,6 +93,8 @@ public class SoupSelect : MonoBehaviour
             {
                 toppingPrevent.SetActive(false);
                 gamemanager.Menu[1] = 2;
+                gamemanager.Menu2[1] = 2;
+                gamemanager.Menu3[1] = 2;
             }
         }
 
@@ -118,6 +122,8 @@ public class SoupSelect : MonoBehaviour
             {
                 toppingPrevent.SetActive(false);
                 gamemanager.Menu[1] = 3;
+                gamemanager.Menu2[1] = 3;
+                gamemanager.Menu3[1] = 3;
             }
         }
 
@@ -146,6 +152,8 @@ public class SoupSelect : MonoBehaviour
             {
                 toppingPrevent.SetActive(false);
                 gamemanager.Menu[1] = 4;
+                gamemanager.Menu2[1] = 4;
+                gamemanager.Menu3[1] = 4;
             }
                        
         }

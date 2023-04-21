@@ -10,7 +10,10 @@ public class TutorialGuest : MonoBehaviour
     [SerializeField] private GameObject menu;
     [SerializeField] private GameObject tutorial;
     [SerializeField] private FirstGuest firstguest;
+    [SerializeField] private SecondGuest secondguest;
+    [SerializeField] private ThirdGuest thirdguest;
     [SerializeField] private Animator guestAnimation;
+    [SerializeField] private AudioSource correct;
 
     private void Start()
     {
@@ -19,6 +22,7 @@ public class TutorialGuest : MonoBehaviour
     }
     public void DialogueFalse()
     {
+        correct.Play();
         dialogue.inActive = true;
         gamemanager.AddCoin(10000);
         guestAnimation.SetBool("isRight", true);
@@ -26,7 +30,9 @@ public class TutorialGuest : MonoBehaviour
         StopCoroutine("FadeOut");
         StartCoroutine("FadeOut");
         Invoke(nameof(FirstMove), 1.2f);
-        
+        Invoke(nameof(SecondMove), 7.2f);
+        Invoke(nameof(ThirdMove), 13.2f);
+
     }
 
     IEnumerator FadeOut()
@@ -45,6 +51,16 @@ public class TutorialGuest : MonoBehaviour
     private void FirstMove()
     {
         firstguest.SelectCharactor();
+    }
+
+    private void SecondMove()
+    {
+        secondguest.SelectCharactor();
+    }
+
+    private void ThirdMove()
+    {
+        thirdguest.SelectCharactor();
     }
 
     private void TutorialInactive()

@@ -21,8 +21,12 @@ public class SoupDragDrop : MonoBehaviour, IBeginDragHandler, IEndDragHandler
     [SerializeField] private GameObject soupPrevent;
     [SerializeField] private TutorialGuest tutorial;
     [SerializeField] private GuestTimer guestTimer;
+    [SerializeField] private GuestTimer2 guestTimer2;
+    [SerializeField] private GuestTimer3 guestTimer3;
 
     [SerializeField] private FirstGuest firstguest;
+    [SerializeField] private SecondGuest secondguest;
+    [SerializeField] private ThirdGuest thirdguest;
 
 
     void IBeginDragHandler.OnBeginDrag(PointerEventData eventData)
@@ -89,11 +93,29 @@ public class SoupDragDrop : MonoBehaviour, IBeginDragHandler, IEndDragHandler
 
         else if (dialogue.inActive)
         {
-            if (transform.position.x > -8.4f && transform.position.x < -5.9f && transform.position.y < 3.4f && transform.position.y > 0.6f)
+            if (transform.position.x > -8.4f && transform.position.x < -6.3f && transform.position.y < 3.4f && transform.position.y > 0.6f)
             {
                 guestTimer.StopCount();
                 firstguest.CheckAnswer();
                 guestTimer.bar.transform.localScale = new Vector3(1, 1, 1);
+                Invoke(nameof(WaitforNoodle), 0.1f);
+                boilPrevent.SetActive(false);
+            }
+
+            else if (transform.position.x > -2.8f && transform.position.x < 0f && transform.position.y < 3.4f && transform.position.y > 0.6f)
+            {                
+                guestTimer2.StopCount();
+                secondguest.CheckAnswer();
+                guestTimer2.bar2.transform.localScale = new Vector3(1, 1, 1);
+                Invoke(nameof(WaitforNoodle), 0.1f);
+                boilPrevent.SetActive(false);
+            }
+
+            else if (transform.position.x > 2.8f && transform.position.x < 5f && transform.position.y < 3.4f && transform.position.y > 0.6f)
+            {
+                guestTimer3.StopCount();
+                thirdguest.CheckAnswer();
+                guestTimer3.bar3.transform.localScale = new Vector3(1, 1, 1);
                 Invoke(nameof(WaitforNoodle), 0.1f);
                 boilPrevent.SetActive(false);
             }

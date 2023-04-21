@@ -61,6 +61,8 @@ public class ToppingDragDrop : MonoBehaviour, IBeginDragHandler, IEndDragHandler
                 if (dialogue.inActive)
                 {
                     gamemanager.Menu[2] = 1;
+                    gamemanager.Menu2[2] = 1;
+                    gamemanager.Menu3[2] = 1;
                 }
             }
 
@@ -72,6 +74,8 @@ public class ToppingDragDrop : MonoBehaviour, IBeginDragHandler, IEndDragHandler
                 if (dialogue.inActive)
                 {
                     gamemanager.Menu[3] = 1;
+                    gamemanager.Menu2[3] = 1;
+                    gamemanager.Menu3[3] = 1;
                 }
 
             }
@@ -85,6 +89,8 @@ public class ToppingDragDrop : MonoBehaviour, IBeginDragHandler, IEndDragHandler
                 if (dialogue.inActive)
                 {
                     gamemanager.Menu[4] = 1;
+                    gamemanager.Menu2[4] = 1;
+                    gamemanager.Menu3[4] = 1;
                 }
                 
             }
@@ -97,6 +103,8 @@ public class ToppingDragDrop : MonoBehaviour, IBeginDragHandler, IEndDragHandler
                 if(dialogue.inActive)
                 {
                     gamemanager.Menu[5] = 1;
+                    gamemanager.Menu2[5] = 1;
+                    gamemanager.Menu3[5] = 1;
                 }
 
             }

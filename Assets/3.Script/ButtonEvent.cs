@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class ButtonEvent : MonoBehaviour
 {
+    [SerializeField] GameObject settings;
     public void WaitforSec()
     {
         Invoke(nameof(LoadingScene), 0.3f);
@@ -17,5 +18,30 @@ public class ButtonEvent : MonoBehaviour
     public void SceneLoader(string Scenename)
     {
         SceneManager.LoadScene(Scenename);
+    }
+
+    public void OpenTistory()
+    {
+        Application.OpenURL("https://gamjia.tistory.com/");
+    }   
+
+    public void OpenInstagram()
+    {
+        Application.OpenURL(" https://instagram.com/rwxr__r__?igshid=ZDdkNTZiNTM=");
+    }
+
+    public void SettingEnter()
+    {
+        settings.SetActive(true);
+    }
+
+    public void SettingQuits()
+    {
+        settings.SetActive(false);
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
     }
 }
