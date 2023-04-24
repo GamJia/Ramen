@@ -9,13 +9,14 @@ public class FirstGuest : MonoBehaviour
     [SerializeField] private GameManager gamemanager;
     [SerializeField] private SpriteRenderer spriterenderer;
     [SerializeField] public GameObject guest;
-    [SerializeField] public GameObject[] character=new GameObject[5];
+    [SerializeField] public GameObject[] character=new GameObject[6];
     [SerializeField] public GameObject menu;
     public int[] answerArr = new int[6];
     public List<int> answerList = new List<int>();
     [SerializeField] private GuestTimer guesttimer;
     [SerializeField] private Animator guestAnimator;
     [SerializeField] private AudioSource correct;
+    [SerializeField] private AudioSource wrong;
     public int ran;
 
 
@@ -30,7 +31,7 @@ public class FirstGuest : MonoBehaviour
 
     public void SelectCharactor()
     {
-        ran = Random.Range(0, 5);
+        ran = Random.Range(0, 6);
         guesttimer.transform.localScale = new Vector3(1, 1, 1);
         Invoke(nameof(SetCharacter), 0.2f);
     }
@@ -46,7 +47,7 @@ public class FirstGuest : MonoBehaviour
     public void Movement()
     {
         guesttimer.StartCount();
-        LeanTween.moveLocalX(guest, -621.741f, 3);
+        LeanTween.moveLocalX(guest, -581.741f, 3);
         Invoke(nameof(waitforsec),3.4f);
     }
 
@@ -92,7 +93,7 @@ public class FirstGuest : MonoBehaviour
 
         if (!isEqual)
         {
-            
+            wrong.Play();
             guestAnimator.SetBool("isWrong", true);
             gamemanager.AddCoin(-5000);
             gamemanager.Heart(-1);

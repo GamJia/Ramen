@@ -19,6 +19,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] Text NoodleText;
     [SerializeField] Text SoupText;
     [SerializeField] GameObject[] Toppings;
+    [SerializeField] private AudioSource gameoversound;
 
     public int[] Menu = new int[6];
     public List<int> Guest1 = new List<int>();
@@ -414,6 +415,7 @@ public class GameManager : MonoBehaviour
         {
             Hearts[0].SetActive(false);
             gameover.SetActive(true);
+            gameoversound.Play();
             Coin = 0;
             Invoke(nameof(StopTime), 0.7f);
         }

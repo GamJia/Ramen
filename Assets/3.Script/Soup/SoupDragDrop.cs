@@ -93,7 +93,7 @@ public class SoupDragDrop : MonoBehaviour, IBeginDragHandler, IEndDragHandler
 
         else if (dialogue.inActive)
         {
-            if (transform.position.x > -8.4f && transform.position.x < -6.3f && transform.position.y < 3.4f && transform.position.y > 0.6f)
+            if (transform.position.x > -8.4f && transform.position.x < -5.3f && transform.position.y < 3.4f && transform.position.y > 0.6f)
             {
                 guestTimer.StopCount();
                 firstguest.CheckAnswer();

@@ -9,13 +9,14 @@ public class ThirdGuest : MonoBehaviour
     [SerializeField] private GameManager gamemanager;
     [SerializeField] private SpriteRenderer spriterenderer;
     [SerializeField] public GameObject guest;
-    [SerializeField] public GameObject[] character = new GameObject[5];
+    [SerializeField] public GameObject[] character = new GameObject[6];
     [SerializeField] public GameObject menu;
     public int[] answerArr = new int[6];
     public List<int> answerList = new List<int>();
     [SerializeField] private GuestTimer3 guesttimer;
     [SerializeField] private Animator guestAnimator;
     [SerializeField] private AudioSource correct;
+    [SerializeField] private AudioSource wrong;
     public int ran;
 
 
@@ -30,7 +31,7 @@ public class ThirdGuest : MonoBehaviour
 
     public void SelectCharactor()
     {
-        ran = Random.Range(0, 5);        
+        ran = Random.Range(0, 6);        
         Invoke(nameof(SetCharacter), 0.2f);
     }
 
@@ -45,7 +46,7 @@ public class ThirdGuest : MonoBehaviour
     public void Movement()
     {
         guesttimer.StartCount();
-        LeanTween.moveLocalX(guest, 639f, 3);
+        LeanTween.moveLocalX(guest, 619f, 3);
         Invoke(nameof(waitforsec), 3.4f);
     }
 
@@ -92,7 +93,7 @@ public class ThirdGuest : MonoBehaviour
 
         if (!isEqual)
         {
-            
+            wrong.Play();
             guestAnimator.SetBool("isWrong", true);
             gamemanager.AddCoin(-5000);
             gamemanager.Heart(-1);

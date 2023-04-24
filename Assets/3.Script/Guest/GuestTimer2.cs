@@ -34,7 +34,7 @@ public class GuestTimer2 : MonoBehaviour
 
     public void StartCount()
     {
-        int ranTime = Random.Range(30, 41);
+        int ranTime = Random.Range(28, 41);
         LeanTween.scaleY(bar2, 0, ranTime);
     }
 
